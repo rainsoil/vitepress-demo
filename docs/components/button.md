@@ -58,6 +58,31 @@
 ```
 
 :::
+## input
+
+:::demo
+```vue
+<template>
+<xl-input label="名称">
+    </xl-input>
+</template>
+```
+:::
+
+
+## checkBox
+:::demo
+```vue
+
+<template>
+
+<xl-checkbox></xl-checkbox>
+</template>
+```
+
+
+:::
+
 
 ## Attributes
 
