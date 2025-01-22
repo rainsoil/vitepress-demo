@@ -83,6 +83,17 @@
 
 :::
 
+## button
+:::demo
+```vue
+
+
+<template>
+    <xl-demo-button>自定义事件按钮</xl-demo-button>
+    </template>
+```
+
+:::
 
 ## Attributes
 

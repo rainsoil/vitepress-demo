@@ -5,7 +5,7 @@ import path from 'path'
 import nav from './configs/nav'
 import sidebar from './configs/sidebar'
 
-
+import MyPlugin from './plugins/myPlugin'
 
 export default defineConfig({
   // lang: 'en-US',
@@ -47,7 +47,7 @@ export default defineConfig({
     logo: '/logo.svg',
 
     search: {
-      provider: 'local',
+      provider: 'local'
       // provider: 'algolia',
       // options: {
       //   appId: 'X51HWTCQJJ',
@@ -75,5 +75,10 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present 君惜'
     }
-  }
+  },
+  plugins: [
+    MyPlugin
+  ]
 })
+
+
