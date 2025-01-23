@@ -100,7 +100,7 @@
 :::demo
 ```vue
 <template>
-  <ButtonCliclk />
+  <buttonCliclk />
 </template>
 
 ```
