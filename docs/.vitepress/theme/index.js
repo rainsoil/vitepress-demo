@@ -9,7 +9,6 @@ import Button from '../../../src/components/Button.vue'
 import DemoInput from '../../../src/components/DemoInput.vue'
 import Checkbox from '../../../src/components/checkbox.vue'
 import DemoButton from '../../../src/components/DemoButton.vue'
-import { sendPostRequest } from './compoentsInterface.js'
 
 // 图标并进行全局注册
 export default {
@@ -22,7 +21,6 @@ export default {
     ctx.app.use(ElementPlus, {
       // 语言设置
     })
-    ctx.app.config.globalProperties.sendPostRequest = sendPostRequest
     ctx.app.component(Button.name, Button)
     ctx.app.component(DemoInput.name, DemoInput)
     ctx.app.component('XlCheckbox', Checkbox)

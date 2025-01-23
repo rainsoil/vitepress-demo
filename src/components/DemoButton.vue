@@ -8,7 +8,7 @@ import { postRequest } from '../service/interface.js'
 
 
 const post = () => {
-  postRequest('/api/login', {
+  postRequest('/button/clock', {
     username: 'admin',
     password: '123456'
   })

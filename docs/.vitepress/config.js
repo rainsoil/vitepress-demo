@@ -5,7 +5,6 @@ import path from 'path'
 import nav from './configs/nav'
 import sidebar from './configs/sidebar'
 
-import MyPlugin from './plugins/myPlugin'
 
 export default defineConfig({
   // lang: 'en-US',
@@ -77,7 +76,7 @@ export default defineConfig({
     }
   },
   plugins: [
-    MyPlugin
+
   ]
 })
 

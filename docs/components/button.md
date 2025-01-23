@@ -95,6 +95,18 @@
 
 :::
 
+##  引入vue文件
+
+:::demo
+```vue
+<template>
+  <ButtonCliclk />
+</template>
+
+```
+:::
+
+
 ## Attributes
 
 | 参数    | 说明   | 类型    | 可选值                                             | 默认值  |
