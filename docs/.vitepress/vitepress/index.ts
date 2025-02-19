@@ -1,8 +1,8 @@
 // import "normalize.css";
 import type { Component } from 'vue'
-// import './style/css-vars.scss'
-// import './style/index.scss'
-import 'element-plus/dist/index.css'
+import './style/css-vars.scss'
+import './style/index.scss'
+// import 'element-plus/dist/index.css'
 
 import VPDemo from "./components/vp-demo/index.vue";
 import ApiExternalType from './components/globals/vp-api-external.vue'

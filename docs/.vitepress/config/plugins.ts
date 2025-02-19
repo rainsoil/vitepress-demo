@@ -7,7 +7,7 @@ import mdContainer from "markdown-it-container";
 // @ts-ignore
 import type Token from "markdown-it/lib/token";
 import { highlight } from "../utils/highlight";
-import { docRoot } from "../theme/global";
+import { docRoot,projRoot } from "../theme/global";
 import externalLinkIcon from '../plugins/external-link-icon'
 import tooltip from '../plugins/tooltip'
 import tableWrapper from "../plugins/table-wrapper";
@@ -39,9 +39,10 @@ export const mdPlugin = (md: MarkdownIt) => {
         // demo文件名称
         const sourceFile = sourceFileToken.children?.[0].content ?? "";
         if (sourceFileToken.type === "inline") {
+          console.log(projRoot)
           // 读取示列代码文件
           source = fs.readFileSync(
-            path.resolve(docRoot, "examples", `${sourceFile}.vue`),
+            path.resolve(projRoot, "examples", `${sourceFile}.vue`),
             "utf-8"
           );
         }
